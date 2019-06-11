@@ -1,5 +1,6 @@
 import 'package:duration/duration.dart';
 
+
 enum RecipeType{
   food ,
   drink,
@@ -13,6 +14,9 @@ class Recipe{
   final List<String> ingredients;
   final List<String>preparation;
   final String imageUrl;
+  
+  String get getDurationString => prettyDuration(this.duration);
+
 
   const Recipe({
     this.id,
@@ -22,5 +26,6 @@ class Recipe{
     this.ingredients,
     this.preparation,
     this.imageUrl,
+    
   });
 }

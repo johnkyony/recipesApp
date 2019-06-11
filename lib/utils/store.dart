@@ -19,7 +19,7 @@ List<Recipe> getRecipes() {
         'Step 2',
         'Step 3',
       ],
-      imageURL: 'https://images.unsplash.com/photo-1517673400267-0251440c45dc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f197f4922b3f26ed3f4e3e66a113b67b&auto=format&fit=crop&w=1050&q=80',
+      imageUrl: 'https://images.unsplash.com/photo-1517673400267-0251440c45dc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f197f4922b3f26ed3f4e3e66a113b67b&auto=format&fit=crop&w=1050&q=80',
           
     ),
     Recipe(
@@ -40,7 +40,7 @@ List<Recipe> getRecipes() {
         'Step 2',
         'Step 3',
       ],
-      imageURL:
+      imageUrl:
           'https://images.unsplash.com/photo-1517741991040-91338b176129?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f65c4032c1b3131f829d464fb979f5e8&auto=format&fit=crop&w=675&q=80',
     ),
     Recipe(
@@ -59,7 +59,7 @@ List<Recipe> getRecipes() {
         'Step 2',
         'Step 3',
       ],
-      imageURL:
+      imageUrl:
           'https://images.unsplash.com/photo-1506802913710-40e2e66339c9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c8ffc5bbb3719b5a46ee703acb0a0ac5&auto=format&fit=crop&w=634&q=80',
     ),
     Recipe(
@@ -78,7 +78,7 @@ List<Recipe> getRecipes() {
         'Step 2',
         'Step 3',
       ],
-      imageURL:
+      imageUrl:
           'https://images.unsplash.com/photo-1532301791573-4e6ce86a085f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c0d9fe8ce9033db3a46ddf00bba92240&auto=format&fit=crop&w=1050&q=80',
     ),
   ];
