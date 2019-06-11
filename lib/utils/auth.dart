@@ -18,5 +18,5 @@ Future<FirebaseUser> signIntoFirebase(GoogleSignInAccount googleSignInAccount) a
   return await _auth.signInWithGoogle(
     accessToken:  googleAuth.accessToken,
     idToken:  googleAuth.idToken,
-  )
+  );
 }
